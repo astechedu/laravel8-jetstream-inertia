@@ -1,18 +1,18 @@
-Laravel 8 Authentication using Jetstream with Inertia Js
+# Laravel 8 Authentication using Jetstream with Inertia Js
 
 ### Steps
 
-    Installation of Laravel Application
-    Install Jetstream
-    Create Auth with Inertia Js
-    Installing Node Js Packages
-    Laravel Migration
-    Generated Scaffolding Files
-    Application Testing
+    1. Installation of Laravel Application
+    2. Install Jetstream
+    3. Create Auth with Inertia Js
+    4. Installing Node Js Packages
+    5. Laravel Migration
+    6. Generated Scaffolding Files
+    7. Application Testing
 
  Let’s get started – Laravel 8 Auth Scaffolding using Inertia Js Jetstream
 
- Installation of Laravel Application
+## 1. Installation of Laravel Application
 
  ### By Laravel Installer
 
@@ -32,22 +32,22 @@ Assuming laravel already installed at system.
 
 Database also configured with application.
 
-## Install Jetstream
+## 2. Install Jetstream
 	$ composer require laravel/jetstream
 
-## Create Auth with Inertia Js
+## 3. Create Auth with Inertia Js
 
 	$ php artisan jetstream:install inertia
 
-## Installing Node Js Packages
+## 4. Installing Node Js Packages
 
 	$ npm install && npm run dev
 
-## Laravel Migration
+## 5. Laravel Migration
 
 	$ php artisan migrate
 
-Generated Scaffolding Files
+## 6. Generated Scaffolding Files
 
 When we open jetsream.php file, we will see ‘stack’ => ‘inertia’, because we are using inertia as stack.
 
@@ -62,7 +62,7 @@ Action Files at /app/Actions
 Blade Template Files or scaffolding files at /resources/js
 
 
-### Application Testing
+### 7. Application Testing
 
 	$ php artisan serve
 
