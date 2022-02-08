@@ -1,3 +1,5 @@
+<img src="https://laravelnews.s3.amazonaws.com/images/jetstream-banners.jpeg" width="300" height="200">
+
 # Laravel 8 Authentication using Jetstream with Inertia Js
 
 ### Steps
